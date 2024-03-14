@@ -1,6 +1,6 @@
 ### PROVIDER
 provider "google" {
-  project = "advancedterraform" #replace this with your project-id
+  project = "advancedterraform-416716" #replace this with your project-id
   region  = "us-central1"
   zone    = "us-central1-a"
 }
@@ -34,7 +34,7 @@ resource "google_compute_firewall" "default" {
 
   source_tags = ["web"]
 }
-
+ 
 ### COMPUTE
 ## NGINX PROXY
 resource "google_compute_instance" "nginx_instance" {
