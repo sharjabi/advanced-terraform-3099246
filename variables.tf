@@ -89,7 +89,7 @@ variable "environment_instance_settings" {
       }
     },
     "PROD" = {
-      machine_type = "e2-medium"
+      machine_type = "e2-medium" 
       labels = {
         environment = "prod"
       }
